@@ -1,12 +1,1 @@
-{
-  "name": "creator-hub",
-  "version": "1.0.0",
-  "description": "Creator Hub Application",
-  "main": "index.html",
-  "scripts": {
-    "start": "serve ."
-  },
-  "dependencies": {
-    "serve": "^14.0.0"
-  }
-} 
+
