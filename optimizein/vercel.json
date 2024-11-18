@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "*.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/landing_page.html"
+    },
+    {
+      "src": "/auth",
+      "dest": "/auth.html"
+    },
+    {
+      "src": "/linkedin_setup",
+      "dest": "/linkedin_setup.html"
+    },
+    {
+      "src": "/dashboard",
+      "dest": "/index.html"
+    }
+  ]
+} 
